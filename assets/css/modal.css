@@ -1,0 +1,320 @@
+.modal-dialog {
+    background: #fff;
+    max-width: 800px;
+    overflow: auto;
+    width: 100%;
+    
+}
+
+
+/* =============================================================== */
+/* SUBSCRIBE | PROMOTIONAL MODAL
+/* =============================================================== */
+
+#modalAds .modal-bg-1 {
+background: url(../../img/ads.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat
+    
+}
+.modal-bg-1 .close {
+    color: #fff;
+    display: block;
+    font-size: 34px;
+    font-weight: lighter;
+    line-height: 10px;
+    opacity: 0.6;
+    padding: 12px;
+    position: absolute;
+    right: 0;
+    text-shadow: none;
+    top: 0;
+    z-index: 1;
+}
+
+#modalAds .modal-dialog {
+    max-width: 660px;
+    min-height: 340px;
+    display: block;
+    overflow: auto;
+    padding: 15px;
+    position: relative;
+}
+
+#modalAds h3 {
+    color: #fff;
+    font-family: Oswald, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.discountLg {
+    color:#ddd;
+    font-family: Oswald, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+.ads-ket{
+	color:#ddd; 
+}
+
+#modalAds h4 {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.newsletter {
+    display: inline-block;
+    width: auto;
+}
+
+.newsletter input[type="text"] {
+    background: #fff;
+    border: medium none;
+    float: left;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.newsletter input[type="text"]:focus {
+    text-shadow: none;
+    color: #666;
+}
+
+.newsletter .subscribe-btn {
+    background: #333;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    float: left;
+    font-weight: normal;
+    height: 40px;
+    line-height: normal;
+    padding: 0 10px;
+}
+
+
+@media (max-width: 442px) {
+    .discountLg {
+        font-size: 30px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+
+    #modalAds h3 {
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 26px;
+    }
+
+    .newsletter input[type="text"] {
+        width: 100%;
+    }
+
+    .newsletter .subscribe-btn {
+
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%;
+    }
+}
+
+.newsletter .subscribe-btn:hover {
+    background: #b7b7b7;
+}
+
+.shoplink {
+    color: #000;
+    display: inline-block;
+    clear: both;
+    font-family: Oswald, Helvetica Neue, Helvetica, Arial, sans-serif;
+    left: 2px;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* ================================================================== */
+/* CUSTOMIZE THE BOOTSTRAP MODAL + INPUT FORM ELEMENT + BUTTON + ALERT
+/* ================================================================== */
+.modal {
+    overflow: auto;
+}
+
+.signUpContent .modal-dialog {
+    max-width: 460px;
+}
+
+.modal-dialog.modal-xs {
+    max-width: 460px;
+}
+
+#product-details-modal .modal-dialog {
+    background: #fff;
+    max-width: 960px;
+    overflow: auto;
+    width: 100%;
+}
+
+.modal-dialog .product-share {
+    border-top: 0 none;
+    margin-top: 0;
+}
+
+.modal-dialog .modal-product-thumb {
+    padding-top: 15px;
+}
+
+.modal-dialog {
+    background: #fff;
+    max-width: 960px;
+    overflow: auto;
+    width: 100%;
+}
+
+.modal-header {
+    border-bottom: 1px solid #E5E5E5;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    background-color: #1d4396;
+}
+
+.modal-header .close{
+	color: #fff;
+    display: block;
+    font-size: 34px;
+    font-weight: lighter;
+    line-height: 10px;
+    opacity: 0.6;
+    padding: 12px;
+    position: absolute;
+    right: 0;
+    text-shadow: none;
+    top: 0;
+    z-index: 1;
+}
+
+.modal-title-site {
+    color: #FFFFFF;
+    font-family: Oswald, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.modal-content {
+    border: 0 solid #ddd;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.modal-footer {
+    background: #eee;
+    border-top: 1px solid #E5E5E5;
+    padding: 10px 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.field {
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+    border-radius: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 36px;
+}
+
+/*
+
+btn style moved to btn.css in V.5
+@import (btn.css);
+also less file available btn.less
+
+*/
+
+p.required, .required sup {
+    color: #E74C3C;
+}
+
+.pagination li.active a {
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.2) inset;
+}
+
+.checkbox {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+legend {
+    padding-bottom: 10px;
+}
+
+.alert {
+    border: none;
+    border-left: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+}
+
+.alert .close {
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.input-group-btn .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.button-log{
+	border: 0;
+	border-radius: 0;
+	background: #1d4396;
+	font-family: Oswald, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.fb_button {
+  background: #658ad0;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+}
+.btn-fb {
+  background: #658ad0;
+  color: #ffffff;
+}
+.fb_button:hover,
+.btn-fb:hover {
+  background: #4e6fae;
+  color: #ffffff;
+  text-decoration: none;
+}
